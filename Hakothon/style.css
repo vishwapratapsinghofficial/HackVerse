@@ -1,0 +1,296 @@
+ *{
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+
+ }
+ #head{
+    background: none;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgba(207, 222, 233, 0.764);
+ }
+ #head2{
+    background: none;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgba(207, 222, 233, 0.764);
+ }
+.box1{
+    height: 100vh;
+    display: flex;
+    margin-left: 150px;
+    height: 900px;
+    width: 1300px;
+    position: fixed;
+   
+ background-image: linear-gradient(rgb(2, 4, 14), rgb(2, 2, 12));
+}
+.box2{
+    position: relative;
+    margin-left: 140px;
+    margin-top: 20px;
+    height: 690px;
+    border-radius: 20px;
+    border: 1px solid rgba(207, 222, 233, 0.377);
+    width: 450px;
+    background-color: rgb(24, 24, 30);
+}
+.imgbox{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 28px;
+    width: 170px;
+}
+.imgbox #credit{
+     position: relative;
+     height: 25px;
+     width: 100%;
+     background-color: rgb(195, 208, 218);
+     border-radius: 10px;
+     border: 3px solid color: rgba(207, 222, 233, 0.764);;
+    
+}
+.imgbox #paypal{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 25px;
+}
+.imgbox #google{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 25px;
+}
+Import Google Font - Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.cart{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    margin-left: 40px;
+    margin-top: 20px;
+  position: relative;
+  background-image: url("images/bg.png");
+  background-size: cover;
+  padding: 25px;
+  border-radius: 22px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(234, 229, 229, 0.1);
+}
+header,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+header .chip {
+  width: 60px;
+}
+h6 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+}
+h5.number {
+  margin-top: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+h5.name {
+  margin-top: 20px;
+}
+.container .card-details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+/* after the card */
+.dot i{
+    color:rgba(207, 222, 233, 0.764);
+    margin-left: 190px;
+    font-size: 50px;
+}
+
+.addnew{
+    display: flex;
+    padding: 4px;
+    margin-left: 150px;
+    height: 30px;
+    width: 170px;
+    color:rgba(207, 222, 233, 0.764);
+    background: rgb(66, 63, 63);
+    border: none;
+    border-radius: 10px;
+}
+.addnew i{
+    margin-left: 10px;
+    font-size: 20px;
+    color:rgba(240, 244, 247, 0.927);
+}
+.addnew p{
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.namehead{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    color:rgba(207, 222, 233, 0.764);
+    margin-left: 50px;
+}
+.namehead2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    color:rgba(207, 222, 233, 0.764);
+    margin-left: 50px;
+}
+.inputbox{
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-left: 50px;
+    height: 35px;
+    width: 330px;
+    border-radius: 10px;
+    background: rgb(66, 63, 63);
+    border: none;
+}
+.inputbox::placeholder{
+    font-size: 22px;
+    font-weight: 500;
+}
+.dob{
+    display: flex;
+}
+.namehead3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 14px;
+    color:rgba(207, 222, 233, 0.764);
+    margin-left: 90px;
+}
+.inputleft{
+    margin-top: 15px;
+    padding-top: 5px;
+    margin-left: 50px;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    background: rgb(66, 63, 63);
+    border: none;
+}
+.inputleft::placeholder{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.inputright{
+    margin-left: 90px;
+    margin-top: 10px;
+    padding-top: 5px;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    background: rgb(66, 63, 63);
+    border: none;
+}
+.inputright::placeholder{
+    font-size: 22px;
+    font-weight: 800;
+}
+.inputbottom{
+    margin-left: 160px;
+    margin-top: 35px;
+    padding-top: 5px;
+    height: 40px;
+    width: 160px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  border: 1px solid rgba(207, 222, 233, 0.377);
+    color: rgba(207, 222, 233, 0.764);
+    background-color: rgb(24, 24, 30);
+    
+}
+.left img{
+  margin-top: -120px;
+  height: 600px;
+  width: 600px;
+  margin-left: 20px;
+}
+.left h2{
+   margin-top: -70px;
+  color: rgba(207, 222, 233, 0.764);
+  margin-left: 80px;
+}
+.tittle h3{
+  color: rgba(207, 222, 233, 0.46);
+  margin-top: 13px;
+  margin-left: 80px;
+}
+.tittle2 h3{
+  color: rgba(207, 222, 233, 0.46);
+  margin-top: 13px;
+  margin-left: 350px;
+}
+.total{
+  margin-top: 80px;
+  display: flex;
+}
+.left hr{
+  margin-top: 10px;
+  margin-left: 70px;
+  font-weight: 100;
+  background: rgba(207, 222, 233, 0.46);
+}
+.line2 hr{
+  margin-top: -35px;
+}
+#price{
+  margin-left: 450px;
+}
+.bottom{
+  margin-top: 30px;
+}
+.bottom h3{
+  color: rgba(207, 222, 233, 0.46);
+  
+  margin-left: 80px;
+  font-size: ;
+}
+.bottom h2{
+  color: rgba(207, 222, 233, 0.764);
+  margin-top: 13px;
+  margin-left: 80px;
+}
+.bottom h4{
+  color: rgba(207, 222, 233, 0.764);
+  margin-left: 80px;
+  color: rgba(207, 222, 233, 0.46);
+  font-weight: 100;
+}
